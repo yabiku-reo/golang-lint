@@ -1,0 +1,19 @@
+linters:
+  disable-all: true
+  enable:
+    - goimports
+    - govet
+    - errcheck
+    - ineffassign
+    - gosimple
+    - staticcheck
+    - bodyclose
+    - contextcheck
+    - goconst
+    - gosec
+    - unused
+    - exhaustive
+    # - revive
+
+issues:
+  exclude-use-default: true
